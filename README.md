@@ -17,15 +17,20 @@ Dans cet exercice, vous créerez une classe `Fraction` représentant un nombre r
 1. Sur la forge, créez le dépôt (_repository_) `SimpleFraction`;
 En terme de *commits*, quelle différence constatez-vous entre cocher une (ou plusieurs) des cases *Initialize this repository with* et n'en cocher aucune ?
     
+    Ajout d'un commit de base pour le readme quand on coche la case "readme"
 
     *Pour la suite, ne cochez aucune de ces cases*.
 1. Localement, configurez `git` avec votre nom (`user.name`) et votre email (`user.email`) (cf. [Personnalisation de Git](https://git-scm.com/book/fr/v2/Personnalisation-de-Git-Configuration-de-Git));
     ```bash
-    # Répondre ici
+    git config --global user.name "Alexis Guigal"
+    git config --global user.email alexis.guigal@laposte.net
     ```
 1. Initialisez le dépôt `git` local pour le projet (cf. [Démarrer un dépôt Git](https://git-scm.com/book/fr/v2/Les-bases-de-Git-D%C3%A9marrer-un-d%C3%A9p%C3%B4t-Git));
     ```bash
-    # Répondre ici
+    J'ai tout d'abord crée le dossier SimpleFraction sur mon bureau puis j'ai push pour syncroniser mon IDE et git:
+    git remote add origin git@github.com:uvsq21917169/SimpleFraction.git
+    git branch -M main
+    git push -u origin main
     ```
 1. Dans votre IDE, créez la classe `Fraction` (vide pour le moment) et la classe `Main` (avec un simple affichage) dans le projet (cf. [Méthode `main`](https://docs.oracle.com/javase/specs/jls/se19/html/jls-12.html#jls-12.1.4));
 Vérifiez que le projet compile et s'exécute dans l'IDE;
